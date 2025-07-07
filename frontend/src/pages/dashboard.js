@@ -234,10 +234,20 @@ function Dashboard() {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
-  const getTotalEmissions = () => {
-    if (!result?.emissions || !Array.isArray(result.emissions)) return 0;
-    return result.emissions.reduce((total, item) => total + (item?.emission || 0), 0);
-  };
+const getTotalEmissions = () => {
+  if (!result?.emissions || !Array.isArray(result.emissions)) return 0;
+
+  // Exclude entries labeled as totals
+  const filteredEmissions = result.emissions.filter(
+    (item) =>
+      item?.activity &&
+      !item.activity.toLowerCase().includes("total") &&
+      !item.activity.toLowerCase().includes("footprint")
+  );
+
+  return filteredEmissions.reduce((total, item) => total + (item?.emission || 0), 0);
+};
+
 
   const getEmissionColor = (emission) => {
     if (emission < 1) return '#10b981'; // Green
