@@ -134,7 +134,5 @@ Pull requests are welcome! Please open an issue first to discuss what you would 
 - [React](https://react.dev/)
 - [FFmpeg](https://ffmpeg.org/)
 
-**Enjoy tracking your carbon footprint by voice!**
-
-**Replace `yourusername/your-repo` with your actual GitHub username and repository name.  
+**Enjoy tracking your carbon footprint by voice!
 You can copy-paste this README into your project and adjust as needed!**
