@@ -10,7 +10,7 @@ A web application that lets you upload or record a voice note describing your da
 - **Carbon footprint estimation:** Calculates CO₂ emissions for your activities.
 - **Modern React frontend:** Simple, clean, and responsive interface.
 
-## 🖥️ Windows Setup Guide
+## 🖥️ Setup Guide For Windows (Mac Commands Included)
 
 ### 1. Prerequisites
 
