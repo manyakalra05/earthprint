@@ -25,8 +25,8 @@ A web application that lets you upload or record a voice note describing your da
 ### 2. Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/manyakalra05/earthprint.git
+cd earthprint
 ```
 
 ### 3. Backend Setup (FastAPI + Whisper)
@@ -35,8 +35,8 @@ cd your-repo
 
 ```sh
 cd backend
-python -m venv venv
-venv\Scripts\activate
+python -m venv venv 
+venv\Scripts\activate   // source venv/bin/activate  (for mac)
 ```
 
 #### B. Install Python Dependencies
@@ -44,7 +44,7 @@ venv\Scripts\activate
 ```sh
 pip install --upgrade pip
 pip install -r requirements.txt
-pip install git+https://github.com/openai/whisper.git
+// download ffmpeg now as stated above,  for mac users if you have homebrew installed run -> brew install ffmpeg
 python -m spacy download en_core_web_sm
 ```
 
