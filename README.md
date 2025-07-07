@@ -1,7 +1,4 @@
-Absolutely! Here’s a **Windows-friendly README.md** for your FastAPI + Whisper backend and React frontend project.  
-This version includes Windows-specific commands and tips for setting up Python, ffmpeg, and Node.js.
-
-# 🌱 Voice Carbon Footprint Tracker
+# 🌱 Voice Carbon Footprint Tracker - EarthPrint
 
 A web application that lets you upload or record a voice note describing your daily activities, transcribes your speech, extracts activities, and estimates your carbon footprint.
 
